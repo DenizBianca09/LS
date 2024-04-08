@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from pyod.models.knn import KNN
 from sklearn.model_selection import train_test_split
-
+import os
 app = FastAPI()
 
 neigh = None
